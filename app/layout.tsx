@@ -53,11 +53,11 @@ export const metadata: Metadata = {
     ttl: siteConfig.openGraph.ttl,
   },
 
-  // Enhanced Twitter
-  twitter: {
-    card: siteConfig.twitter.card as 'summary_large_image',
-    site: siteConfig.twitter.site,
-    creator: siteConfig.twitter.creator,
+  // Enhanced instagram
+  instagram: {
+    card: siteConfig.instagram.card as 'summary_large_image',
+    site: siteConfig.instagram.site,
+    creator: siteConfig.instagram.creator,
     title: siteConfig.name,
     description: siteConfig.description,
     // Images removed from root layout to allow child pages to override without inheritance
