@@ -55,7 +55,7 @@ export const siteConfig = {
     ttl: 604800, // 7 days
   },
 
-  // instagram card configuration
+  // Instagram card configuration
   instagram: {
     card: 'summary_large_image',
     creator: '@bmbxmd',
@@ -113,47 +113,33 @@ export const siteConfig = {
   },
 
   mainNav: [
-    {
-      title: 'Home',
-      href: '/',
-      scroll: true,
-    },
-    {
-      title: 'Movies',
-      href: '/movies',
-      scroll: true,
-    },
-    {
-      title: 'TV Shows',
-      href: '/tv-shows',
-      scroll: true,
-    },
-    {
-      title: 'Watch History',
-      href: '/watch-history',
-      scroll: true,
-    },
-    {
-      title: 'Disclaimer',
-      href: '/disclaimer',
-      scroll: false,
-    },
+    { title: 'Home', href: '/', scroll: true },
+    { title: 'Movies', href: '/movies', scroll: true },
+    { title: 'TV Shows', href: '/tv-shows', scroll: true },
+    { title: 'Watch History', href: '/watch-history', scroll: true },
+    { title: 'Disclaimer', href: '/disclaimer', scroll: false },
   ],
+
   personalLogo:
     'https://pbs.twimg.com/profile_images/1446549954231738370/IVkXC16N_400x400.jpg',
+
   links: {
     instagram: 'https://instagram.com/bmbxmd',
     github: 'https://github.com/novaxmd',
-    website: 'https://www.Bmb Tech/',
+    website: 'https://www.bmbtech.online/',
     buyMeACoffee: 'https://buymeacoffee.com/bmbtech',
   },
+
   email: 'bmbxmd@gmail.com',
-  websiteURL: 'https://bmb-moves.online
-Save 97%
-US$',
+
+  // FIXED HERE ✅
+  websiteURL: 'https://bmb-moves.online',
+
   instagramTag: '@bmbxmd',
+
   image:
     'https://pbs.twimg.com/profile_images/1446549954231738370/IVkXC16N_400x400.jpg',
+
   keywords: [
     'Reely',
     'Reely Tracker',
@@ -174,7 +160,6 @@ US$',
     'React Engineer',
     'React.js',
     'ReactJS',
-    'React Developer',
     'Next.js',
     'NextJS',
     'Next.js Developer',
