@@ -113,33 +113,45 @@ export const siteConfig = {
   },
 
   mainNav: [
-    { title: 'Home', href: '/', scroll: true },
-    { title: 'Movies', href: '/movies', scroll: true },
-    { title: 'TV Shows', href: '/tv-shows', scroll: true },
-    { title: 'Watch History', href: '/watch-history', scroll: true },
-    { title: 'Disclaimer', href: '/disclaimer', scroll: false },
+    {
+      title: 'Home',
+      href: '/',
+      scroll: true,
+    },
+    {
+      title: 'Movies',
+      href: '/movies',
+      scroll: true,
+    },
+    {
+      title: 'TV Shows',
+      href: '/tv-shows',
+      scroll: true,
+    },
+    {
+      title: 'Watch History',
+      href: '/watch-history',
+      scroll: true,
+    },
+    {
+      title: 'Disclaimer',
+      href: '/disclaimer',
+      scroll: false,
+    },
   ],
-
   personalLogo:
     'https://pbs.twimg.com/profile_images/1446549954231738370/IVkXC16N_400x400.jpg',
-
   links: {
     instagram: 'https://instagram.com/bmbxmd',
     github: 'https://github.com/novaxmd',
     website: 'https://www.bmbtech.online/',
     buyMeACoffee: 'https://buymeacoffee.com/bmbtech',
   },
-
   email: 'bmbxmd@gmail.com',
-
-  // FIXED HERE ✅
   websiteURL: 'https://bmb-moves.online',
-
   instagramTag: '@bmbxmd',
-
   image:
     'https://pbs.twimg.com/profile_images/1446549954231738370/IVkXC16N_400x400.jpg',
-
   keywords: [
     'Reely',
     'Reely Tracker',
