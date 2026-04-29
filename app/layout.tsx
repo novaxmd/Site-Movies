@@ -77,10 +77,10 @@ export const metadata: Metadata = {
     ttl: siteConfig.openGraph.ttl,
   },
 
-  twitter: {
-    card: siteConfig.twitter.card as 'summary_large_image',
-    site: siteConfig.twitter.site,
-    creator: siteConfig.twitter.creator,
+  instagram: {
+    card: siteConfig.instagram.card as 'summary_large_image',
+    site: siteConfig.instagram.site,
+    creator: siteConfig.instagram.creator,
     title: `${siteConfig.name} — Movie & TV Show Tracker`,
     description: siteConfig.description,
     images: ['/opengraph-image.png'],
