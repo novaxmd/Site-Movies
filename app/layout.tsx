@@ -77,15 +77,6 @@ export const metadata: Metadata = {
     ttl: siteConfig.openGraph.ttl,
   },
 
-  instagram: {
-    card: siteConfig.instagram.card as 'summary_large_image',
-    site: siteConfig.instagram.site,
-    creator: siteConfig.instagram.creator,
-    title: `${siteConfig.name} — Movie & TV Show Tracker`,
-    description: siteConfig.description,
-    images: ['/opengraph-image.png'],
-  },
-
   appleWebApp: {
     capable: siteConfig.pwa.capable,
     title: siteConfig.name,
@@ -174,6 +165,7 @@ export const metadata: Metadata = {
     'msapplication-config': siteConfig.icons.browserConfig,
     'apple-mobile-web-app-title': siteConfig.name,
     'application-name': siteConfig.seo.applicationName,
+    'instagram:creator': siteConfig.instagram.creator,
   },
 }
 
